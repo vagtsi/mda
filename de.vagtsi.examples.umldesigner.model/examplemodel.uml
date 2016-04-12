@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:somda.service="http:///somda/service.ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///somda/service.ecore ../de.vagtsi.examples.umldesigner.profile/somda.uml#_CCc49vsDEeWEF7aCjN0O7w">
+  <uml:Model xmi:id="_Cw9sQPphEeWvhqaRANVxgA" name="ExampleModel">
+    <packagedElement xmi:type="uml:Package" xmi:id="_4rmxMPyiEeW_IPgka-ouMw" name="de">
+      <packagedElement xmi:type="uml:Package" xmi:id="_AB30IPyjEeW_IPgka-ouMw" name="vagtsi">
+        <packagedElement xmi:type="uml:Package" xmi:id="_DCK8YPyjEeW_IPgka-ouMw" name="examples">
+          <packagedElement xmi:type="uml:Package" xmi:id="_FQ9vMPyjEeW_IPgka-ouMw" name="umldesigner">
+            <packagedElement xmi:type="uml:Package" xmi:id="_IIt_cPyjEeW_IPgka-ouMw" name="model">
+              <packagedElement xmi:type="uml:Class" xmi:id="_E8dTcPphEeWvhqaRANVxgA" name="ExampleService">
+                <ownedOperation xmi:id="_PVgDgPpkEeWvhqaRANVxgA" name="getName">
+                  <ownedParameter xmi:id="_Tst7YPpkEeWvhqaRANVxgA" direction="return">
+                    <name xsi:nil="true"/>
+                    <type xmi:type="uml:PrimitiveType" href="../de.vagtsi.examples.umldesigner.profile/somda.uml#_I8fvgPpjEeWvhqaRANVxgA"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_MVzGQPpmEeWvhqaRANVxgA" name="ExampleValueObject">
+                <ownedAttribute xmi:id="_upGpEPsDEeWEF7aCjN0O7w" name="stringValue" aggregation="composite">
+                  <type xmi:type="uml:PrimitiveType" href="../de.vagtsi.examples.umldesigner.profile/somda.uml#_I8fvgPpjEeWvhqaRANVxgA"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_8in9oPsDEeWEF7aCjN0O7w" name="booleanValue" aggregation="composite">
+                  <type xmi:type="uml:PrimitiveType" href="../de.vagtsi.examples.umldesigner.profile/somda.uml#_aUt_kPpjEeWvhqaRANVxgA"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-E1-UPsDEeWEF7aCjN0O7w" value="1"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-E2lYPsDEeWEF7aCjN0O7w" value="1"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_LCWWkPsEEeWEF7aCjN0O7w" name="stringArray" aggregation="composite">
+                  <type xmi:type="uml:PrimitiveType" href="../de.vagtsi.examples.umldesigner.profile/somda.uml#_I8fvgPpjEeWvhqaRANVxgA"/>
+                  <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ljf70PsEEeWEF7aCjN0O7w"/>
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ljgi4PsEEeWEF7aCjN0O7w" value="1"/>
+                </ownedAttribute>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_k9I6EPsDEeWEF7aCjN0O7w">
+      <eAnnotations xmi:id="_k9JhIPsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../de.vagtsi.examples.umldesigner.profile/somda.uml#_CCc40fsDEeWEF7aCjN0O7w"/>
+      </eAnnotations>
+      <appliedProfile href="../de.vagtsi.examples.umldesigner.profile/somda.uml#_TFSQUPpWEeWjVdp6ldZGLQ"/>
+    </profileApplication>
+  </uml:Model>
+  <somda.service:Service xmi:id="_m-z24PsDEeWEF7aCjN0O7w" base_Class="_E8dTcPphEeWvhqaRANVxgA"/>
+  <somda.service:ValueObject xmi:id="_oPWRsPsDEeWEF7aCjN0O7w" base_Class="_MVzGQPpmEeWvhqaRANVxgA"/>
+</xmi:XMI>

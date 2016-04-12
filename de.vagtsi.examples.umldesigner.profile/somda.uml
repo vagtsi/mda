@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_TFSQUPpWEeWjVdp6ldZGLQ" name="somda">
+  <eAnnotations xmi:id="_CCc40PsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_CCc40fsDEeWEF7aCjN0O7w" name="somda" nsURI="http:///schemas/somda/_CBZv8PsDEeWEF7aCjN0O7w/0" nsPrefix="somda">
+      <eAnnotations xmi:id="_CCdf4PsDEeWEF7aCjN0O7w" source="UMLDesignerProfileVersion">
+        <details xmi:id="_CCdf4fsDEeWEF7aCjN0O7w" key="Version" value="0.0.1"/>
+        <details xmi:id="_CCdf4vsDEeWEF7aCjN0O7w" key="Date" value="2016-04-05"/>
+        <details xmi:id="_CCdf4_sDEeWEF7aCjN0O7w" key="Author" value=""/>
+        <details xmi:id="_CCdf5PsDEeWEF7aCjN0O7w" key="Copyright" value=""/>
+        <details xmi:id="_CCdf5fsDEeWEF7aCjN0O7w" key="Comment" value=""/>
+      </eAnnotations>
+      <eSubpackages xmi:id="_CCc40vsDEeWEF7aCjN0O7w" name="datatype" nsURI="http:///somda/datatype.ecore" nsPrefix="somda.datatype">
+        <eAnnotations xmi:id="_CCc40_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_yakQIPphEeWvhqaRANVxgA"/>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc41PsDEeWEF7aCjN0O7w" name="String" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc41fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_I8fvgPpjEeWvhqaRANVxgA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc41vsDEeWEF7aCjN0O7w" name="boolean" instanceClassName="boolean">
+          <eAnnotations xmi:id="_CCc41_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_aUt_kPpjEeWvhqaRANVxgA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc42PsDEeWEF7aCjN0O7w" name="int" instanceClassName="int">
+          <eAnnotations xmi:id="_CCc42fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_gIet8PpjEeWvhqaRANVxgA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc42vsDEeWEF7aCjN0O7w" name="Object" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc42_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_1g09kPr9EeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc43PsDEeWEF7aCjN0O7w" name="DateTime" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc43fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_fsMXIPr-EeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc43vsDEeWEF7aCjN0O7w" name="Blob" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc43_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_9RZhcPr-EeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc44PsDEeWEF7aCjN0O7w" name="Clob" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc44fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_L6gf4Pr_EeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc44vsDEeWEF7aCjN0O7w" name="Character" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc44_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_vtOVUPr_EeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc45PsDEeWEF7aCjN0O7w" name="double" instanceClassName="double">
+          <eAnnotations xmi:id="_CCc45fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_13KvEPr_EeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc45vsDEeWEF7aCjN0O7w" name="float" instanceClassName="float">
+          <eAnnotations xmi:id="_CCc45_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_61cm8Pr_EeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc46PsDEeWEF7aCjN0O7w" name="long" instanceClassName="long">
+          <eAnnotations xmi:id="_CCc46fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__byf8Pr_EeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc46vsDEeWEF7aCjN0O7w" name="void" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc46_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_SIX64PsAEeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc47PsDEeWEF7aCjN0O7w" name="Boolean" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc47fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_iQcVMPsBEeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc47vsDEeWEF7aCjN0O7w" name="Integer" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc47_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lGy3QPsBEeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc48PsDEeWEF7aCjN0O7w" name="Double" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc48fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_pB2XkPsBEeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc48vsDEeWEF7aCjN0O7w" name="Float" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc48_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_rRgtEPsBEeWEF7aCjN0O7w"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_CCc49PsDEeWEF7aCjN0O7w" name="Long" instanceClassName="java.lang.String">
+          <eAnnotations xmi:id="_CCc49fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tkTPEPsBEeWEF7aCjN0O7w"/>
+        </eClassifiers>
+      </eSubpackages>
+      <eSubpackages xmi:id="_CCc49vsDEeWEF7aCjN0O7w" name="service" nsURI="http:///somda/service.ecore" nsPrefix="somda.service">
+        <eAnnotations xmi:id="_CCc49_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_yqlC0Pr1EeWEF7aCjN0O7w"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CCc4-PsDEeWEF7aCjN0O7w" name="ValueObject">
+          <eAnnotations xmi:id="_CCc4-fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_CACMUPpmEeWvhqaRANVxgA"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CCc4-vsDEeWEF7aCjN0O7w" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CCc4_PsDEeWEF7aCjN0O7w" name="Service">
+          <eAnnotations xmi:id="_CCc4_fsDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kjBSgPpWEeWjVdp6ldZGLQ"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_CCc4_vsDEeWEF7aCjN0O7w" name="localService" ordered="false">
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Boolean"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CCc5APsDEeWEF7aCjN0O7w" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_CCc5AvsDEeWEF7aCjN0O7w" name="Enumeration">
+          <eAnnotations xmi:id="_CCc5A_sDEeWEF7aCjN0O7w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_POIscPsCEeWEF7aCjN0O7w"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CCc5BPsDEeWEF7aCjN0O7w" name="base_Class" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:id="_jnHq8PpWEeWjVdp6ldZGLQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yakQIPphEeWvhqaRANVxgA" name="datatype">
+    <ownedComment xmi:id="_55xMoPphEeWvhqaRANVxgA" annotatedElement="_yakQIPphEeWvhqaRANVxgA">
+      <body>Definition of all supported datatypes for SOMDA code generation.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_I8fvgPpjEeWvhqaRANVxgA" name="String">
+      <ownedComment xmi:id="_WJptUPpjEeWvhqaRANVxgA" annotatedElement="_I8fvgPpjEeWvhqaRANVxgA">
+        <body>This data type represents a 'string' type (e.g. java.lang.String in java).</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_aUt_kPpjEeWvhqaRANVxgA" name="boolean">
+      <ownedComment xmi:id="_p56k0Pr9EeWEF7aCjN0O7w" annotatedElement="_aUt_kPpjEeWvhqaRANVxgA">
+        <body>This data type represents a 'boolean' primitive type (e.g. boolean in java). Values can only be 'true' or 'false' and never 'null'.</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_gIet8PpjEeWvhqaRANVxgA" name="int">
+      <ownedComment xmi:id="_yQWrUPr9EeWEF7aCjN0O7w" annotatedElement="_gIet8PpjEeWvhqaRANVxgA">
+        <body>This data type represents a unsigned 'integer' primitive type of 4 byte size (e.g. int in Java).</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1g09kPr9EeWEF7aCjN0O7w" name="Object">
+      <ownedComment xmi:id="_OuLW0Pr-EeWEF7aCjN0O7w" annotatedElement="_1g09kPr9EeWEF7aCjN0O7w">
+        <body>This data type represents a generic 'Object' type (e.g. java.lang.Object in java or Any in CORBA). Please be aware that not all languages used for your model may not support extracting the 'real' type out from the 'Object' value and thus a separate type value has to be provideded to the user/client in this case.</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fsMXIPr-EeWEF7aCjN0O7w" name="DateTime">
+      <ownedComment xmi:id="_jcoi4Pr-EeWEF7aCjN0O7w" annotatedElement="_fsMXIPr-EeWEF7aCjN0O7w">
+        <body>This data type represents a value containg a time and date value (e.g. java.util.Date in java).</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_9RZhcPr-EeWEF7aCjN0O7w" name="Blob">
+      <ownedComment xmi:id="_HoHdoPr_EeWEF7aCjN0O7w" annotatedElement="_9RZhcPr-EeWEF7aCjN0O7w">
+        <body>This data type represents a 'binray large object' aka 'binary array' (e.g. byte[] in java).</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_L6gf4Pr_EeWEF7aCjN0O7w" name="Clob">
+      <ownedComment xmi:id="_ene8YPr_EeWEF7aCjN0O7w" annotatedElement="_L6gf4Pr_EeWEF7aCjN0O7w">
+        <body>This data type represents a 'character large object' containing huge string data (e.g. a XML file).</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_vtOVUPr_EeWEF7aCjN0O7w" name="Character">
+      <ownedComment xmi:id="_0EfQgPr_EeWEF7aCjN0O7w" annotatedElement="_vtOVUPr_EeWEF7aCjN0O7w">
+        <body>A single (unicode) character value.</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_13KvEPr_EeWEF7aCjN0O7w" name="double">
+      <ownedComment xmi:id="_O59eIPsAEeWEF7aCjN0O7w" annotatedElement="_13KvEPr_EeWEF7aCjN0O7w">
+        <body>This data type represents a unsigned double precission floating point value primitive type of 8 byte size (e.g. int in Java).</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_61cm8Pr_EeWEF7aCjN0O7w" name="float">
+      <ownedComment xmi:id="_KDgskPsAEeWEF7aCjN0O7w" annotatedElement="_61cm8Pr_EeWEF7aCjN0O7w">
+        <body>This data type represents a unsigned single precission floating point value primitive type of 4 byte size (e.g. int in Java).</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__byf8Pr_EeWEF7aCjN0O7w" name="long">
+      <ownedComment xmi:id="_EIs7APsAEeWEF7aCjN0O7w" annotatedElement="__byf8Pr_EeWEF7aCjN0O7w">
+        <body>This data type represents a unsigned 'integer' primitive type of 8 byte size (e.g. long in Java).</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_SIX64PsAEeWEF7aCjN0O7w" name="void">
+      <ownedComment xmi:id="_WQltcPsAEeWEF7aCjN0O7w" annotatedElement="_SIX64PsAEeWEF7aCjN0O7w">
+        <body>The 'void' type.</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_iQcVMPsBEeWEF7aCjN0O7w" name="Boolean"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_lGy3QPsBEeWEF7aCjN0O7w" name="Integer"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_pB2XkPsBEeWEF7aCjN0O7w" name="Double"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_rRgtEPsBEeWEF7aCjN0O7w" name="Float"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_tkTPEPsBEeWEF7aCjN0O7w" name="Long"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_yqlC0Pr1EeWEF7aCjN0O7w" name="service">
+    <ownedComment xmi:id="_4ncp4Pr1EeWEF7aCjN0O7w" annotatedElement="_yqlC0Pr1EeWEF7aCjN0O7w">
+      <body>The service profile defintions of SOMDA.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_kjBSgPpWEeWjVdp6ldZGLQ" name="Service">
+      <ownedComment xmi:id="_q2pzwPpWEeWjVdp6ldZGLQ" annotatedElement="_kjBSgPpWEeWjVdp6ldZGLQ">
+        <body>Service stereo type test.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_QIJ7YPpXEeWjVdp6ldZGLQ" name="localService">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QIR3MPpXEeWjVdp6ldZGLQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QIR3MfpXEeWjVdp6ldZGLQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_R3w30PpXEeWjVdp6ldZGLQ" name="base_Class" association="_R3ytAPpXEeWjVdp6ldZGLQ">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Extension" xmi:id="_R3ytAPpXEeWjVdp6ldZGLQ" memberEnd="_R3ytAfpXEeWjVdp6ldZGLQ _R3w30PpXEeWjVdp6ldZGLQ">
+        <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_R3ytAfpXEeWjVdp6ldZGLQ" name="extension_Service" type="_kjBSgPpWEeWjVdp6ldZGLQ" association="_R3ytAPpXEeWjVdp6ldZGLQ"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_POIscPsCEeWEF7aCjN0O7w" name="Enumeration">
+      <ownedComment xmi:id="_d0bAYPsCEeWEF7aCjN0O7w" annotatedElement="_POIscPsCEeWEF7aCjN0O7w">
+        <body>Definition of a list of unique literals.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_h9tJ8PsCEeWEF7aCjN0O7w" name="base_Class" association="_h9tJ8fsCEeWEF7aCjN0O7w">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Extension" xmi:id="_h9tJ8fsCEeWEF7aCjN0O7w" memberEnd="_h9tJ8vsCEeWEF7aCjN0O7w _h9tJ8PsCEeWEF7aCjN0O7w">
+        <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_h9tJ8vsCEeWEF7aCjN0O7w" name="extension_Enumeration" type="_POIscPsCEeWEF7aCjN0O7w" association="_h9tJ8fsCEeWEF7aCjN0O7w"/>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_CACMUPpmEeWvhqaRANVxgA" name="ValueObject">
+      <ownedComment xmi:id="_bskjEPsCEeWEF7aCjN0O7w" annotatedElement="_CACMUPpmEeWvhqaRANVxgA">
+        <body>Object containing values in the context of a certain domain.</body>
+      </ownedComment>
+      <ownedAttribute xmi:id="_IsGbsPpmEeWvhqaRANVxgA" name="base_Class" association="_IsGbsfpmEeWvhqaRANVxgA">
+        <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      </ownedAttribute>
+      <nestedClassifier xmi:type="uml:Extension" xmi:id="_IsGbsfpmEeWvhqaRANVxgA" memberEnd="_IsGbsvpmEeWvhqaRANVxgA _IsGbsPpmEeWvhqaRANVxgA">
+        <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_IsGbsvpmEeWvhqaRANVxgA" name="extension_ValueObject" type="_CACMUPpmEeWvhqaRANVxgA" association="_IsGbsfpmEeWvhqaRANVxgA"/>
+      </nestedClassifier>
+    </packagedElement>
+  </packagedElement>
+  <profileApplication xmi:id="_nPBFEPpeEeWBYIS2fi2uGw">
+    <eAnnotations xmi:id="_nPDhUPpeEeWBYIS2fi2uGw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+</uml:Profile>
